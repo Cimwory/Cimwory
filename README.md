@@ -20,6 +20,8 @@
     <a href="https://porto-kindy.vercel.app" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
     </a>
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=Cimwory&color=38BDF8&style=flat-square&label=Profile+Views" alt="Profile Views" />
   </p>
 
 </div>
@@ -70,8 +72,8 @@
 ### 📊 Statistik Aktivitas GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Cimwory&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cimwory&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Cimwory&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Cimwory&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
 </div>
 
 <div align="center">
