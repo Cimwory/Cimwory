@@ -14,7 +14,7 @@
 
   <!-- 3. Social & Live Profile Views Counter -->
   <p align="center">
-    <a href="https://linkedin.com/in/ulinnuha-alkindi" target="_blank">
+    <a href="https://www.linkedin.com/in/ulinnuha-alkindi-67ba11299/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="mailto:alkindirosyadi@gmail.com">
