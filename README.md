@@ -1,15 +1,18 @@
 <div align="center">
 
-  <!-- Header Typing Animation Banner -->
+  <!-- 1. Dynamic Animated Waving Wave Header (Capsule Render) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=200&section=header&text=ULINNUHA%20ALKINDI&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Embedded%20Systems%20%E2%80%A2%20IoT%20Engineer%20%E2%80%A2%20Fullstack%20Dev&descAlignY=58&descSize=16" width="100%" alt="Header Banner" />
+
+  <!-- 2. Dynamic Typing SVG Subtitle -->
   <a href="https://github.com/Cimwory">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Ulinnuha+Alkindi;Embedded+Systems+%26+IoT+Engineer;Fullstack+%26+Mobile+App+Developer;Sensor-to-Cloud+Architect" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=620&lines=Hi+%F0%9F%91%8B%2C+I'm+Ulinnuha+Alkindi;Embedded+Systems+%26+IoT+Engineer;Sensor-to-Cloud+Architect;Fullstack+%26+Mobile+App+Developer" alt="Typing SVG" />
   </a>
 
   <p align="center">
     🎓 <b>PENS (Politeknik Elektronika Negeri Surabaya)</b> | ⚡ Focused on <b>Industrial IoT, Telemetry & Intelligent Systems</b>
   </p>
 
-  <!-- Social & Contact Badges -->
+  <!-- 3. Social & Live Profile Views Counter -->
   <p align="center">
     <a href="https://linkedin.com/in/ulinnuha-alkindi" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -18,19 +21,27 @@
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://porto-kindy.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
     </a>
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Cimwory&color=38BDF8&style=flat-square&label=Profile+Views" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Cimwory&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
+### 💻 Live Hardware & System Console
+
+<div align="center">
+  <!-- Custom Animated Terminal SVG with pulsing LED and streaming output -->
+  <img src="./assets/terminal.svg" width="100%" alt="Animated IoT Terminal Console" />
+</div>
+
+---
+
 ### 🚀 Tentang Saya
-- 🛠️ Mengembangkan arsitektur **Sensor-to-Cloud**, telemetri industri *real-time*, dan otomasi cerdas (*closed-loop control*).
-- 💼 Berpengalaman dalam implementasi protokol komunikasi industri seperti **Modbus RTU/TCP**, **MQTT**, dan inspeksi transmisi paket dengan **Wireshark**.
+- 🛠️ Merancang arsitektur **Sensor-to-Cloud**, telemetri industri *real-time*, dan otomasi *closed-loop*.
+- 💼 Berpengalaman dalam protokol komunikasi industri seperti **Modbus RTU/TCP**, **MQTT (TLS/QoS 1)**, dan analisis paket dengan **Wireshark**.
 - 📱 Mengembangkan aplikasi kasir & manajemen modern berbasis **Flutter** dan **React + Supabase Cloud**.
 - 🔭 **Proyek Unggulan**:
   - 🌐 **[Interactive IoT Portfolio](https://github.com/Cimwory/porto-kindy)** — 3D interactive hardware showcase & real-time telemetry simulator.
@@ -82,6 +93,20 @@
 
 ---
 
+### 🐍 GitHub Contribution Snake Game
+
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cimwory/Cimwory/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cimwory/Cimwory/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Cimwory/Cimwory/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</div>
+
+---
+
+<div align="center">
+  <!-- Dynamic Animated Waving Wave Footer (Capsule Render) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,11,20&height=110&section=footer" width="100%" alt="Footer Banner" />
   <sub>Ditenagai oleh dedikasi & kopi ☕ • © Ulinnuha Alkindi Rosyadi</sub>
 </div>

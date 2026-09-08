@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="1"/>
+    </radialGradient>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 2px #10b981); opacity: 1; }
+        50% { filter: drop-shadow(0 0 8px #10b981); opacity: 0.6; }
+      }
+      @keyframes fadeIn1 { 0% { opacity: 0; } 8% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes fadeIn2 { 0%, 12% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes fadeIn3 { 0%, 25% { opacity: 0; } 35% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes fadeIn4 { 0%, 42% { opacity: 0; } 52% { opacity: 1; } 100% { opacity: 1; } }
+      .cursor { animation: blink 1s infinite; }
+      .live-dot { animation: pulseGlow 2s infinite ease-in-out; }
+      .line-1 { animation: fadeIn1 10s infinite; }
+      .line-2 { animation: fadeIn2 10s infinite; }
+      .line-3 { animation: fadeIn3 10s infinite; }
+      .line-4 { animation: fadeIn4 10s infinite; }
+      .mono { font-family: 'Fira Code', 'Courier New', Courier, monospace; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="796" height="316" rx="16" fill="url(#bgGlow)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Terminal Header Bar -->
+  <rect x="2" y="2" width="796" height="38" rx="16" fill="#0f172a" fill-opacity="0.9" />
+  <rect x="2" y="26" width="796" height="14" fill="#0f172a" fill-opacity="0.9" />
+  <line x1="2" y1="40" x2="798" y2="40" stroke="#334155" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="22" cy="21" r="6" fill="#ef4444" />
+  <circle cx="42" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="62" cy="21" r="6" fill="#10b981" />
+
+  <!-- Title -->
+  <text x="400" y="26" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="bold" class="mono">kindy@pens-iot-node: ~</text>
+
+  <!-- Live Status Badge -->
+  <g transform="translate(660, 11)">
+    <rect width="120" height="20" rx="10" fill="#064e3b" fill-opacity="0.6" stroke="#059669" stroke-width="0.8" />
+    <circle cx="12" cy="10" r="4" fill="#10b981" class="live-dot" />
+    <text x="24" y="14" fill="#34d399" font-size="9.5" font-weight="bold" class="mono">ONLINE NODE</text>
+  </g>
+
+  <!-- Terminal Content Lines -->
+  <!-- Line 1: Whoami -->
+  <g class="line-1">
+    <text x="24" y="74" fill="#38bdf8" font-size="13" font-weight="bold" class="mono">kindy@pens:~$</text>
+    <text x="140" y="74" fill="#f8fafc" font-size="13" class="mono">whoami</text>
+    <text x="24" y="96" fill="#94a3b8" font-size="12.5" class="mono">&#10140; Ulinnuha Alkindi Rosyadi (<tspan fill="#a78bfa">IoT &amp; Embedded Systems Engineer</tspan>)</text>
+  </g>
+
+  <!-- Line 2: Cat Core Stack -->
+  <g class="line-2">
+    <text x="24" y="130" fill="#38bdf8" font-size="13" font-weight="bold" class="mono">kindy@pens:~$</text>
+    <text x="140" y="130" fill="#f8fafc" font-size="13" class="mono">cat stack.config</text>
+    <text x="24" y="152" fill="#34d399" font-size="12.5" class="mono">&#9889; Hardware : <tspan fill="#cbd5e1">ESP32 • STM32 • Modbus RTU/TCP • MQTT • Wireshark</tspan></text>
+    <text x="24" y="174" fill="#60a5fa" font-size="12.5" class="mono">&#128187; Software : <tspan fill="#cbd5e1">Flutter • React 19 • TypeScript • Tailwind • Supabase</tspan></text>
+  </g>
+
+  <!-- Line 3: System Status -->
+  <g class="line-3">
+    <text x="24" y="208" fill="#38bdf8" font-size="13" font-weight="bold" class="mono">kindy@pens:~$</text>
+    <text x="140" y="208" fill="#f8fafc" font-size="13" class="mono">systemctl status telemetry-service</text>
+    <text x="24" y="230" fill="#10b981" font-size="12.5" class="mono">&#9679; telemetry.service - Industrial Telemetry Node (Active: running)</text>
+    <text x="24" y="250" fill="#64748b" font-size="12" class="mono">  &#9492;&#9472; Modbus Polling: 100ms • Packet Loss: 0.0% • Cloud Sync: Instant</text>
+  </g>
+
+  <!-- Line 4: Current Mission -->
+  <g class="line-4">
+    <text x="24" y="284" fill="#38bdf8" font-size="13" font-weight="bold" class="mono">kindy@pens:~$</text>
+    <text x="140" y="284" fill="#fbbf24" font-size="13" class="mono">echo $MISSION</text>
+    <text x="24" y="304" fill="#f1f5f9" font-size="12" font-weight="500" class="mono">"Connecting physical sensors to resilient cloud architectures."</text>
+    <rect x="525" y="293" width="8" height="13" fill="#38bdf8" class="cursor" />
+  </g>
+
+</svg>
