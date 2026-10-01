@@ -23,7 +23,9 @@
     <a href="https://porto-kindy.vercel.app" target="_blank">
       <img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=Cimwory&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    <a href="https://hits.sh/github.com/Cimwory/">
+      <img src="https://hits.sh/github.com/Cimwory.svg?style=for-the-badge&label=PROFILE+VIEWS&color=38bdf8&labelColor=555555&logo=github&extraCount=55" alt="Profile Views" />
+    </a>
   </p>
 
 </div>
